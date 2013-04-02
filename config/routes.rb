@@ -1,4 +1,6 @@
 Prvni::Application.routes.draw do
+  get "home/index"
+
   resources :statuses
 
 
